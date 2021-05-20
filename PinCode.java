@@ -1,6 +1,5 @@
 package regex.pincode;
 
-import java.util.Scanner;
 import java.util.regex.*;
 
 public class PinCode {
@@ -19,13 +18,9 @@ public class PinCode {
 	
 	public static void main(String[] args) {
 		System.out.println("Welcome to the PIN validation program");
-		String pin = "400088";
-		boolean a = validatePin(pin);
-		if (a == true ) {
-			System.out.println(pin+" is valid pin");
-		} else {
-			System.out.println(pin+" is invalid pin");
-		}
-		
+		String pin1 = "400088";
+		 System.out.println(pin1+" "+validatePin(pin1));
+		 String pin2 = "A400088";
+		 System.out.println(pin2+" "+validatePin(pin2));
 	}
 }
