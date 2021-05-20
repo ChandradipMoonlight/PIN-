@@ -22,5 +22,7 @@ public class PinCode {
 		 System.out.println(pin1+" "+validatePin(pin1));
 		 String pin2 = "A400088";
 		 System.out.println(pin2+" "+validatePin(pin2));
+		 String pin3 = "400088B";
+		 System.out.println(pin3+" "+validatePin(pin3));
 	}
 }
